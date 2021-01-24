@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Smart bookmark",
+  "version": "1.0",
+
+  "description": "Commonly useful tools for dev",
+  "icons": {
+    "16": "src/icons/popup.png",
+    "48": "src/icons/popup.png",
+    "128": "src/icons/popup.png"
+  },
+
+  "author": "PA_NQT",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "src/icons/popup.png",
+      "24": "src/icons/popup.png",
+      "32": "src/icons/popup.png"
+    },
+    "default_title": "Smart bookmark",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

@@ -1,0 +1,210 @@
+{
+  "browserSearch": [
+    {
+      "name": "Google",
+      "icon": "https://i.ibb.co/6YzJL3K/1-google.png",
+      "link": "https://www.google.com/"
+    },
+    {
+      "name": "Baidu",
+      "icon": "https://i.ibb.co/gjvt3Jt/1-baidu.png",
+      "link": "https://www.baidu.com/"
+    },
+    {
+      "name": "Bing",
+      "icon": "https://i.ibb.co/1zbPLG7/1-bing.png",
+      "link": "https://www.bing.com/"
+    },
+    {
+      "name": "Github",
+      "icon": "https://i.ibb.co/Y3Qy5sS/1-github.png",
+      "link": "https://github.com/explore"
+    },
+    {
+      "name": "Cent",
+      "icon": "https://i.ibb.co/FVkkNTg/1-cent.png",
+      "link": "https://vn.search.yahoo.com/"
+    },
+    {
+      "name": "DuckDuckGo",
+      "icon": "https://i.ibb.co/ftfzpQN/1-duckduckgo.png",
+      "link": "https://duckduckgo.com/"
+    },
+    {
+      "name": "Naver",
+      "icon": "https://i.ibb.co/ryF1m2x/1-naver.png",
+      "link": "https://www.naver.com/"
+    },
+    {
+      "name": "Sogou",
+      "icon": "https://i.ibb.co/km3qfFj/1-sogou.png",
+      "link": "https://www.sogou.com/"
+    },
+    {
+      "name": "Yandex",
+      "icon": "https://i.ibb.co/0DDtK4r/1-yandex.png",
+      "link": "https://yandex.com/"
+    },
+    {
+      "name": "Wikipedia",
+      "icon": "https://i.ibb.co/jrzXX48/1-wikipedia.png",
+      "link": "https://en.wikipedia.org/w/index.php?cirrusUserTesting=glent_m0&sort=relevance&search=&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
+    }
+  ],
+  "color": [
+    {
+      "name": "Colordot",
+      "icon": "https://i.ibb.co/GHq1Bdr/colordot.png",
+      "link": "https://color.hailpixel.com/"
+    },
+    {
+      "name": "Stylifyme",
+      "icon": "https://i.ibb.co/82JD1Zg/stylifyme.png",
+      "link": "http://stylifyme.com/"
+    },
+    {
+      "name": "UIGradient",
+      "icon": "https://i.ibb.co/0qBdn5p/uigradient.png",
+      "link": "https://uigradients.com/"
+    },
+    {
+      "name": "Entity lookup",
+      "icon": "https://i.ibb.co/Z2Vq0KM/entitylookup.png",
+      "link": "http://entity-lookup.leftlogic.com/"
+    }
+  ],
+  "converter": [
+    {
+      "name": "Babel",
+      "icon": "https://i.ibb.co/tYVxrV7/babel.png",
+      "link": "https://babeljs.io/repl"
+    },
+    {
+      "name": "SASS",
+      "icon": "https://i.ibb.co/tZLj00q/sass.png",
+      "link": "https://www.sassmeister.com/"
+    },
+    {
+      "name": "LESS",
+      "icon": "https://i.ibb.co/jwdTzcs/summary.png",
+      "link": "http://www.webtoolkitonline.com/"
+    },
+    {
+      "name": "Markdown",
+      "icon": "https://i.ibb.co/qm1XLYW/markdown.png",
+      "link": "https://stackedit.io"
+    },
+    {
+      "name": "Pug",
+      "icon": "https://i.ibb.co/wYqkrJq/pug.png",
+      "link": "https://stackedit.io"
+    }
+  ],
+  "codeEditor": [
+    {
+      "name": "Codepen",
+      "icon": "https://i.ibb.co/ykR732B/codepen.png",
+      "link": "https://codepen.io/pen/"
+    },
+    {
+      "name": "JSFiddle",
+      "icon": "https://i.ibb.co/4jrdWmZ/jsfiddle.png",
+      "link": "https://jsfiddle.net/"
+    },
+    {
+      "name": "Live weave",
+      "icon": "https://i.ibb.co/kQkz2Mx/liveweave.png",
+      "link": "https://liveweave.com/"
+    },
+    {
+      "name": "Repl.it",
+      "icon": "https://i.ibb.co/fS0f1JN/repl-it.png",
+      "link": "https://repl.it/"
+    }
+  ],
+  "codeOptimize": [
+    {
+      "name": "PNG",
+      "icon": "https://i.ibb.co/NLJgdrS/tiny.png",
+      "link": "https://tinypng.com/"
+    },
+    {
+      "name": "JPEG",
+      "icon": "https://i.ibb.co/sRKJLWV/jpeg.png",
+      "link": "http://jpeg-optimizer.com/"
+    }
+  ],
+  "dataGenerator": [
+    {
+      "name": "Lorem",
+      "icon": "https://i.ibb.co/2MZ3CXx/lorem.png",
+      "link": "https://www.lipsum.com/"
+    },
+    {
+      "name": "Favicon",
+      "icon": "https://i.ibb.co/CQywWs7/dynamic.png",
+      "link": "http://tools.dynamicdrive.com/favicon/"
+    },
+    {
+      "name": "Mockaroo",
+      "icon": "https://i.ibb.co/RgmRzLj/mockaroo.png",
+      "link": "https://mockaroo.com/"
+    },
+    {
+      "name": "Mobile mockup",
+      "icon": "https://i.ibb.co/y4GJtQ5/mockuphone.png",
+      "link": "https://mockuphone.com/"
+    },
+    {
+      "name": "Logo",
+      "icon": "https://i.ibb.co/mqTcww9/logaster.png",
+      "link": "https://www.logaster.com/"
+    },
+    {
+      "name": "UUID",
+      "icon": "https://i.ibb.co/7zfHbp6/uuid.png",
+      "link": "https://www.uuidgenerator.net/"
+    },
+    {
+      "name": "Hash",
+      "icon": "https://i.ibb.co/rtXPQLF/sha256.png",
+      "link": "https://passwordsgenerator.net/sha256-hash-generator/"
+    },
+    {
+      "name": "Utimate code",
+      "icon": "https://i.ibb.co/C7bv3sy/webcode.png",
+      "link": "https://webcode.tools/"
+    },
+    {
+      "name": "Free stock",
+      "icon": "https://i.ibb.co/DKmbX4t/pexel.png",
+      "link": "https://www.pexels.com/vi-vn/"
+    },
+    {
+      "name": "Great API",
+      "icon": "https://i.ibb.co/194gX72/unsplash.png",
+      "link": "https://unsplash.com/"
+    },
+    {
+      "name": "Freepik",
+      "icon": "https://i.ibb.co/61T1n6r/freepik.png",
+      "link": "https://www.freepik.com/"
+    },
+    {
+      "name": "Random image",
+      "icon": "https://i.ibb.co/7J8Zb4m/unsplash-source.png",
+      "link": "https://source.unsplash.com/"
+    },
+    {
+      "name": "Dummy image",
+      "icon": "https://i.ibb.co/bKvVmcF/place-holder.png",
+      "link": "https://placeholder.com/"
+    },
+    {
+      "name": "Free icons",
+      "icon": "https://i.ibb.co/QFK2g3r/icon-finder.png",
+      "link": "https://www.iconfinder.com/"
+    }
+  ],
+  "other": []
+}

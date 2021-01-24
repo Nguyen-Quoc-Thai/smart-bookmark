@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart bookmark</title>
+    <link rel="stylesheet" href="src/css/popup.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="tool" id="tool">
+      <div class="group search-group">
+        <legend>Search</legend>
+        <div class="dev-engine">
+          <div id="browserSearch-list"></div>
+          <button
+            data-resource="browserSearch"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group color-group">
+        <legend>Color</legend>
+        <div class="dev-engine">
+          <div id="color-list"></div>
+          <button
+            data-resource="color"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group converter-group">
+        <legend>Converter</legend>
+        <div class="dev-engine">
+          <div id="converter-list"></div>
+          <button
+            data-resource="converter"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group code-editor-group">
+        <legend>Code editor</legend>
+        <div class="dev-engine">
+          <div id="codeEditor-list"></div>
+          <button
+            data-resource="codeEditor"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group code-optimize-group">
+        <legend>Code optimize</legend>
+        <div class="dev-engine">
+          <div id="codeOptimize-list"></div>
+          <button
+            data-resource="codeOptimize"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group data-generator-group">
+        <legend>Data generator</legend>
+        <div class="dev-engine">
+          <div id="dataGenerator-list"></div>
+          <button
+            data-resource="dataGenerator"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+
+      <div class="group other-group">
+        <legend>Other</legend>
+        <div class="dev-engine">
+          <div id="other-list"></div>
+          <button
+            data-resource="other"
+            class="btn-add btn btn-outline-primary btn-sm ml"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

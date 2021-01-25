@@ -9,9 +9,7 @@
     "48": "src/icons/popup.png",
     "128": "src/icons/popup.png"
   },
-
   "author": "PA_NQT",
-
   "browser_action": {
     "default_icon": {
       "16": "src/icons/popup.png",
@@ -21,13 +19,13 @@
     "default_title": "Smart bookmark",
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "contextMenus",
-    "tabs",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
-
+  "permissions": ["tabs"],
+  "toggle-feature-foo": {
+    "suggested_key": {
+      "default": "Shift+S+B",
+      "mac": "Shift+S+B"
+    },
+    "description": "Toggle feature smart bookmark"
+  },
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }

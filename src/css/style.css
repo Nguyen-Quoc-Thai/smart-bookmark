@@ -78,8 +78,20 @@ body {
   margin: 8px 0 !important;
 }
 
+.btn-add:focus,
+.btn-add:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .btn-del {
   display: none;
+}
+
+.msg-success {
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 8px;
 }
 
 .ml {

@@ -1,17 +1,3 @@
-/** ----------------------------- Util ---------------------------*/
-function genId(length) {
-  const characters = 'abc0123456789';
-  const charactersLength = characters.length;
-
-  let result = '';
-
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-  }
-
-  return result;
-}
-
 /** ----------------------------- Handler ---------------------------*/
 const BASE_API_URL = 'https://600e379f3bb1d100179de841.mockapi.io/api/v1';
 
@@ -25,69 +11,54 @@ const keys = [
   'other'
 ];
 
-// Render popup & add listener
+/** Render popup & add listener */
 (() => {
+  // Popup render
   fetch(`${BASE_API_URL}/tools`)
     .then((response) => response.json())
     .then((store) => {
       keys.forEach((key) => {
+        // Filter each category
         const items = store.filter((el) => el.type === key);
 
+        // Resource is empty
         if (!items.length) return;
 
+        // Update view
         let result = '';
-
         items.map((resource) => {
-          result += `
-          <div class="item">
-            <button type="button" class="btn btn-light btn-sm" src=${resource.link} id="${resource.id}">
-              <img class="icon" src=${resource.icon} alt=${resource.name} style="width: 18px; height: 18px;"/>
-              <span class="name">${resource.name}</span>
-            </button>
-            <div class="btn-del"><span></span></div>
-          </div>
-        `;
+          result += itemTemplate(resource);
         });
-
         document.getElementById(`${key}-list`).innerHTML = result;
       });
 
-      // Handle add listener: choose an item
+      // Handle add listener: choose an item (create new tab)
       $(window).ready(function () {
-        $('.dev-engine button')
-          .not('.btn-add')
-          .click(function () {
-            const url = $(this).attr('src');
-
-            // Create new tab
-            chrome.tabs.create(
-              {
-                url
-              },
-              function () {}
-            );
-          });
+        addEventNewTabForEachBtn('.dev-engine button', '.btn-add', 'src');
       });
 
-      // Handle add listener: add a bookmark
+      // Handle add listener: Add a new bookmark on btn add
       $('.dev-engine .btn-add').click(function () {
-        const resourceKey = $(this).attr('data-resource');
+        const curr = $(this);
 
         chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
+          // Create a new item
+          const resourceKey = curr.attr('data-resource');
+
           const link = tabs[0].url;
           const icon = tabs[0].favIconUrl;
           const title = tabs[0].title;
-          const name = title.length < 13 ? title : `${title.slice(0, 10)}...`;
+          const name = title;
           const type = resourceKey;
 
           const newItem = {
-            id: genId(5),
             name,
             icon,
             link,
             type
           };
 
+          // Call API -  send new item
           fetch(`${BASE_API_URL}/tools`, {
             method: 'POST',
             headers: {
@@ -97,21 +68,36 @@ const keys = [
             body: JSON.stringify(newItem)
           })
             .then((response) => response.json())
-            .then((store) => store);
+            .then((newResource) => {
+              // Text notification
+              const msg = `<span class="msg-success text-success">Thêm thành công</span>`;
+
+              $(msg).insertAfter(curr);
+              setTimeout(function () {
+                curr.next().html('');
+              }, 2000);
+
+              // Update view
+              let newNode = itemTemplate(newResource);
+              curr.prev().append(newNode);
+            });
         });
       });
 
       // Handle add listener: del a bookmark
-      $('.dev-engine .btn-del').click(function (e) {
-        e.preventDefault();
+      $('.dev-engine .btn-del').click(function () {
+        const curr = $(this);
 
-        const id = $(this).prev().attr('id');
+        const id = curr.prev().attr('id');
 
         fetch(`${BASE_API_URL}/tools/${id}`, {
           method: 'DELETE'
         })
           .then((response) => response.json())
-          .then((result) => result);
+          .then((result) => {
+            // Update view
+            curr.parent().addClass('d-none');
+          });
       });
     });
 })();

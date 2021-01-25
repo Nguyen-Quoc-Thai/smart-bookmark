@@ -1,210 +1,278 @@
 {
-  "browserSearch": [
+  "resource": [
     {
+      "id": 1,
       "name": "Google",
       "icon": "https://i.ibb.co/6YzJL3K/1-google.png",
-      "link": "https://www.google.com/"
+      "link": "https://www.google.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 2,
       "name": "Baidu",
       "icon": "https://i.ibb.co/gjvt3Jt/1-baidu.png",
-      "link": "https://www.baidu.com/"
+      "link": "https://www.baidu.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 3,
       "name": "Bing",
       "icon": "https://i.ibb.co/1zbPLG7/1-bing.png",
-      "link": "https://www.bing.com/"
+      "link": "https://www.bing.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 4,
       "name": "Github",
       "icon": "https://i.ibb.co/Y3Qy5sS/1-github.png",
-      "link": "https://github.com/explore"
+      "link": "https://github.com/explore",
+      "type": "browserSearch"
     },
     {
+      "id": 5,
       "name": "Cent",
       "icon": "https://i.ibb.co/FVkkNTg/1-cent.png",
-      "link": "https://vn.search.yahoo.com/"
+      "link": "https://vn.search.yahoo.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 6,
       "name": "DuckDuckGo",
       "icon": "https://i.ibb.co/ftfzpQN/1-duckduckgo.png",
-      "link": "https://duckduckgo.com/"
+      "link": "https://duckduckgo.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 7,
       "name": "Naver",
       "icon": "https://i.ibb.co/ryF1m2x/1-naver.png",
-      "link": "https://www.naver.com/"
+      "link": "https://www.naver.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 8,
       "name": "Sogou",
       "icon": "https://i.ibb.co/km3qfFj/1-sogou.png",
-      "link": "https://www.sogou.com/"
+      "link": "https://www.sogou.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 9,
       "name": "Yandex",
       "icon": "https://i.ibb.co/0DDtK4r/1-yandex.png",
-      "link": "https://yandex.com/"
+      "link": "https://yandex.com/",
+      "type": "browserSearch"
     },
     {
+      "id": 10,
       "name": "Wikipedia",
       "icon": "https://i.ibb.co/jrzXX48/1-wikipedia.png",
-      "link": "https://en.wikipedia.org/w/index.php?cirrusUserTesting=glent_m0&sort=relevance&search=&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
-    }
-  ],
-  "color": [
+      "link": "https://en.wikipedia.org/w/index.php?cirrusUserTesting=glent_m0&sort=relevance&search=&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1",
+      "type": "browserSearch"
+    },
     {
+      "id": 11,
       "name": "Colordot",
       "icon": "https://i.ibb.co/GHq1Bdr/colordot.png",
-      "link": "https://color.hailpixel.com/"
+      "link": "https://color.hailpixel.com/",
+      "type": "color"
     },
     {
+      "id": 12,
       "name": "Stylifyme",
       "icon": "https://i.ibb.co/82JD1Zg/stylifyme.png",
-      "link": "http://stylifyme.com/"
+      "link": "http://stylifyme.com/",
+      "type": "color"
     },
     {
+      "id": 13,
       "name": "UIGradient",
       "icon": "https://i.ibb.co/0qBdn5p/uigradient.png",
-      "link": "https://uigradients.com/"
+      "link": "https://uigradients.com/",
+      "type": "color"
     },
     {
+      "id": 14,
       "name": "Entity lookup",
       "icon": "https://i.ibb.co/Z2Vq0KM/entitylookup.png",
-      "link": "http://entity-lookup.leftlogic.com/"
-    }
-  ],
-  "converter": [
+      "link": "http://entity-lookup.leftlogic.com/",
+      "type": "color"
+    },
     {
+      "id": 15,
       "name": "Babel",
       "icon": "https://i.ibb.co/tYVxrV7/babel.png",
-      "link": "https://babeljs.io/repl"
+      "link": "https://babeljs.io/repl",
+      "type": "converter"
     },
     {
+      "id": 16,
       "name": "SASS",
       "icon": "https://i.ibb.co/tZLj00q/sass.png",
-      "link": "https://www.sassmeister.com/"
+      "link": "https://www.sassmeister.com/",
+      "type": "converter"
     },
     {
+      "id": 17,
       "name": "LESS",
       "icon": "https://i.ibb.co/jwdTzcs/summary.png",
-      "link": "http://www.webtoolkitonline.com/"
+      "link": "http://www.webtoolkitonline.com/",
+      "type": "converter"
     },
     {
+      "id": 18,
       "name": "Markdown",
       "icon": "https://i.ibb.co/qm1XLYW/markdown.png",
-      "link": "https://stackedit.io"
+      "link": "https://stackedit.io",
+      "type": "converter"
     },
     {
+      "id": 19,
       "name": "Pug",
       "icon": "https://i.ibb.co/wYqkrJq/pug.png",
-      "link": "https://stackedit.io"
-    }
-  ],
-  "codeEditor": [
+      "link": "https://stackedit.io",
+      "type": "converter"
+    },
     {
+      "id": 20,
       "name": "Codepen",
       "icon": "https://i.ibb.co/ykR732B/codepen.png",
-      "link": "https://codepen.io/pen/"
+      "link": "https://codepen.io/pen/",
+      "type": "codeEditor"
     },
     {
+      "id": 21,
       "name": "JSFiddle",
       "icon": "https://i.ibb.co/4jrdWmZ/jsfiddle.png",
-      "link": "https://jsfiddle.net/"
+      "link": "https://jsfiddle.net/",
+      "type": "codeEditor"
     },
     {
+      "id": 22,
       "name": "Live weave",
       "icon": "https://i.ibb.co/kQkz2Mx/liveweave.png",
-      "link": "https://liveweave.com/"
+      "link": "https://liveweave.com/",
+      "type": "codeEditor"
     },
     {
+      "id": 23,
       "name": "Repl.it",
       "icon": "https://i.ibb.co/fS0f1JN/repl-it.png",
-      "link": "https://repl.it/"
-    }
-  ],
-  "codeOptimize": [
+      "link": "https://repl.it/",
+      "type": "codeEditor"
+    },
     {
+      "id": 24,
       "name": "PNG",
       "icon": "https://i.ibb.co/NLJgdrS/tiny.png",
-      "link": "https://tinypng.com/"
+      "link": "https://tinypng.com/",
+      "type": "codeOptimize"
     },
     {
+      "id": 25,
       "name": "JPEG",
       "icon": "https://i.ibb.co/sRKJLWV/jpeg.png",
-      "link": "http://jpeg-optimizer.com/"
-    }
-  ],
-  "dataGenerator": [
+      "link": "http://jpeg-optimizer.com/",
+      "type": "codeOptimize"
+    },
+
     {
+      "id": 26,
       "name": "Lorem",
       "icon": "https://i.ibb.co/2MZ3CXx/lorem.png",
-      "link": "https://www.lipsum.com/"
+      "link": "https://www.lipsum.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 27,
       "name": "Favicon",
       "icon": "https://i.ibb.co/CQywWs7/dynamic.png",
-      "link": "http://tools.dynamicdrive.com/favicon/"
+      "link": "http://tools.dynamicdrive.com/favicon/",
+      "type": "dataGenerator"
     },
     {
+      "id": 28,
       "name": "Mockaroo",
       "icon": "https://i.ibb.co/RgmRzLj/mockaroo.png",
-      "link": "https://mockaroo.com/"
+      "link": "https://mockaroo.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 29,
       "name": "Mobile mockup",
       "icon": "https://i.ibb.co/y4GJtQ5/mockuphone.png",
-      "link": "https://mockuphone.com/"
+      "link": "https://mockuphone.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 30,
       "name": "Logo",
       "icon": "https://i.ibb.co/mqTcww9/logaster.png",
-      "link": "https://www.logaster.com/"
+      "link": "https://www.logaster.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 31,
       "name": "UUID",
       "icon": "https://i.ibb.co/7zfHbp6/uuid.png",
-      "link": "https://www.uuidgenerator.net/"
+      "link": "https://www.uuidgenerator.net/",
+      "type": "dataGenerator"
     },
     {
+      "id": 32,
       "name": "Hash",
       "icon": "https://i.ibb.co/rtXPQLF/sha256.png",
-      "link": "https://passwordsgenerator.net/sha256-hash-generator/"
+      "link": "https://passwordsgenerator.net/sha256-hash-generator/",
+      "type": "dataGenerator"
     },
     {
+      "id": 33,
       "name": "Utimate code",
       "icon": "https://i.ibb.co/C7bv3sy/webcode.png",
-      "link": "https://webcode.tools/"
+      "link": "https://webcode.tools/",
+      "type": "dataGenerator"
     },
     {
+      "id": 34,
       "name": "Free stock",
       "icon": "https://i.ibb.co/DKmbX4t/pexel.png",
-      "link": "https://www.pexels.com/vi-vn/"
+      "link": "https://www.pexels.com/vi-vn/",
+      "type": "dataGenerator"
     },
     {
+      "id": 35,
       "name": "Great API",
       "icon": "https://i.ibb.co/194gX72/unsplash.png",
-      "link": "https://unsplash.com/"
+      "link": "https://unsplash.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 36,
       "name": "Freepik",
       "icon": "https://i.ibb.co/61T1n6r/freepik.png",
-      "link": "https://www.freepik.com/"
+      "link": "https://www.freepik.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 37,
       "name": "Random image",
       "icon": "https://i.ibb.co/7J8Zb4m/unsplash-source.png",
-      "link": "https://source.unsplash.com/"
+      "link": "https://source.unsplash.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 38,
       "name": "Dummy image",
       "icon": "https://i.ibb.co/bKvVmcF/place-holder.png",
-      "link": "https://placeholder.com/"
+      "link": "https://placeholder.com/",
+      "type": "dataGenerator"
     },
     {
+      "id": 39,
       "name": "Free icons",
       "icon": "https://i.ibb.co/QFK2g3r/icon-finder.png",
-      "link": "https://www.iconfinder.com/"
+      "link": "https://www.iconfinder.com/",
+      "type": "dataGenerator"
     }
-  ],
-  "other": []
+  ]
 }

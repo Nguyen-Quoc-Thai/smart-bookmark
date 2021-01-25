@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -16,12 +20,48 @@ body {
   margin-left: 10px;
 }
 
+.dev-engine > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .dev-engine button {
   margin: 0 10px 8px 0;
+  position: relative;
+}
+
+.item:hover .btn-del {
+  display: block;
+}
+
+.btn-del {
+  position: absolute;
+  top: -25%;
+  left: 80%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 100;
+  background: black;
+}
+
+.btn-del span {
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  top: 40%;
+  left: 12%;
+  border-radius: 20%;
+  z-index: 101;
+  background: white;
 }
 
 .group {
   margin-bottom: 20px;
+}
+
+.item {
+  position: relative;
 }
 
 .group legend {
@@ -36,6 +76,10 @@ body {
 
 .btn-add {
   margin: 8px 0 !important;
+}
+
+.btn-del {
+  display: none;
 }
 
 .ml {
